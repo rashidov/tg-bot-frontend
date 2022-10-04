@@ -14,7 +14,8 @@ function App() {
   }
   return (
     <div className="App">
-      hi
+      hi {tg?.initDataUnSave?.user?.username}
+      <br />
       <button onClick={onClose}>close</button>
     </div>
   );
