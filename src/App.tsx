@@ -14,7 +14,7 @@ function App() {
   }
   return (
     <div className="App">
-      hi {tg?.initDataUnSafe?.user?.username}
+      hi {tg?.initDataUnsafe?.user?.username}
       <br />
       <button onClick={onClose}>close</button>
     </div>
